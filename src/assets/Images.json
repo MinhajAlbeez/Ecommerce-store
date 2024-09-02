@@ -1,0 +1,20 @@
+{
+  "HeroImg": [
+    {
+      "id": "1",
+      "url": "/pictures/heroImg1.jpg"
+    },
+    {
+      "id": "2",
+      "url": "/pictures/heroImg2.jpg"
+    },
+    {
+      "id": "3",
+      "url": "/pictures/heroImg3.jpg"
+    },
+    {
+      "id": "4",
+      "url": "/pictures/heroImg4.jpg"
+    }
+  ]
+}

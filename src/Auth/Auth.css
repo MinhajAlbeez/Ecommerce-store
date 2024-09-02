@@ -1,0 +1,139 @@
+/* App.css */
+
+html, body, #root {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    height: 100%;
+  }
+
+
+  
+  .imgdiv {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: fixed !important;
+  }
+  
+  .red-background {
+    flex: 1;
+    /* background-color: red; */
+    /* color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+ 
+  
+
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  .image-container{
+    position: fixed;
+    height: 100%;
+
+  }
+
+  .right {
+    flex: 1;
+    /* padding: 10px; */
+    box-sizing: border-box;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+.signup {
+  /* height: 100%; */
+  width: 100%;
+  align-items: center;
+}
+
+ 
+.container__login  {
+  width: 100%;
+  /* max-width: 400px; Example maximum width */
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.logo {
+  font-size: 2.5rem;
+  margin-bottom: -50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"]  {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+
+.register-link {
+  color: red;
+  cursor: pointer;
+}
+
+.register-link:hover {
+  background-color: rgba(255, 0, 0, 0.1); /* Light red background on hover */
+}
+
+.form p {
+  text-align: left; /* Align the paragraph text to the left */
+  margin-top: 10px; /* Adjust top margin as needed */
+}
+
+ 
+  
